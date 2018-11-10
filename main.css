@@ -1,0 +1,32 @@
+/* COLOR PALETTE
+light green #67f494 	(103,244,148)
+green #5cc59e     (92,197,158)
+gray #4c5267     (76,82,103)
+middle grey #363a51     (54,58,81)
+dark grey #1a2b42	    (26,43,66)
+
+*/
+
+aside {
+    top:0;
+    bottom:0;
+    width:280px;
+    height: 100%;
+    background-color: #363a51;
+
+}
+
+a {
+    color:#67f494;
+    padding:20px 3px 20px 20px;
+    display:block;
+    text-decoration: none;
+}
+
+.active-menu-link {
+    color:#67f494;
+    border-left:solid 3px #67f494;
+    background-color:#1a2b42;
+    padding:20px 30px 20px 20px;
+    display:block;
+}
