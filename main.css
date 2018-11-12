@@ -13,29 +13,29 @@ FONTS
 font-family: 'Open Sans', sans-serif;
 */
 
-body{
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
 
 
-.wrapper{
-    display:flex;
-    flex-direction: row;
-}
-
 /* NAV SECTION */
 aside {
-    top:0;
+    flex: 1;
+    background-color: #1a2b42;
+    min-width:280px;
+    /* top:0;
     bottom:0;
     width: 20%;
-    min-width:280px;
-    height: 100%;
-    background-color: #1a2b42;
-
+    height: 100%; */
 }
 
 .aside-logo {
+    display:flex;
+    flex-direction: column;
     color: white;
     font-size: 2rem;
     padding: 20px;
@@ -86,21 +86,17 @@ a:hover{
     padding-right:15px;
 }
 
-/*HEADER SECTION*/
-
-
-header {
-    top: 0;
-    background-color:white;
-    height: 50px;
-    width: 100%;
-    float: right;
-}
-
 
 /* MAIN SECTION */
 
 main {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+    background-color:#98A4CE;
+}
+
+/* main {
     display:flex;
     background-color: #98A4CE;
     height: 100vh;
@@ -109,4 +105,29 @@ main {
     width: 80%;
     position:absolute;
     clear: both;
+} */
+
+/*HEADER SECTION*/
+
+header {
+    display: flex;
+    min-height: 50px;
+    background-color: white;
 }
+
+.content{
+    flex: 4;
+}
+
+footer {
+    display: flex;
+    min-height: 50px;
+    background-color:#4C5267;
+}
+/* header {
+    top: 0;
+    background-color:white;
+    height: 50px;
+    width: 100%;
+    float: right;
+} */
