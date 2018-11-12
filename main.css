@@ -21,8 +21,8 @@ body{
 
 .wrapper{
     display:flex;
+    flex-direction: row;
 }
-
 
 /* NAV SECTION */
 aside {
@@ -85,6 +85,18 @@ a:hover{
     color:#67f494;
     padding-right:15px;
 }
+
+/*HEADER SECTION*/
+
+
+header {
+    top: 0;
+    background-color:white;
+    height: 50px;
+    width: 100%;
+    float: right;
+}
+
 
 /* MAIN SECTION */
 
