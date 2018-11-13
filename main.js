@@ -6,6 +6,6 @@ var openMenu = function(){
 
 
 document.getElementById("burguer-menu").addEventListener("click", function(){
-    
-    console.log("This is working");
+   openMenu; 
+   return console.log("This is working");
 });
