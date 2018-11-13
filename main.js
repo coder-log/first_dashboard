@@ -1,11 +1,8 @@
 
 var openMenu = function(){
-    document.getElementsByTagName('aside').style.display = "flex";
+    document.getElementsByTagName("aside")[0].style.display = "inline";
 
 }
 
 
-document.getElementById("burguer-menu").addEventListener("click", function(){
-   openMenu; 
-   return console.log("This is working");
-});
+document.getElementById("burguer-menu").addEventListener("click", openMenu);

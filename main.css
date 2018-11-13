@@ -24,6 +24,7 @@ body {
 
 /* NAV SECTION */
 aside {
+    display:inline;
     flex: 1;
     background-color: #1a2b42;
     min-width:280px;
