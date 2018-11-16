@@ -77,15 +77,6 @@ aside hr {
 
 }
 
-/*
-.menu-link:active {
-    color: #67f494;
-    border-left:solid 3px #67f494;
-    background-color:#363a51;
-    padding:20px 30px 20px 17px;
-    display:block;
-}
-*/
 .active-menu-link {
     color: #67f494;
     border-left:solid 3px #67f494;
@@ -140,6 +131,13 @@ header {
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 30px;
+}
+
+.top-nav_right a, .top-nav_right-sm a {
+    color:#98A4CE;
+    padding:20px 3px 20px 20px;
+    display:block;
+    text-decoration: none;
 }
 
 .top-nav_left {
