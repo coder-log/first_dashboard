@@ -77,6 +77,7 @@ aside hr {
 
 }
 
+/*
 .menu-link:active {
     color: #67f494;
     border-left:solid 3px #67f494;
@@ -84,7 +85,7 @@ aside hr {
     padding:20px 30px 20px 17px;
     display:block;
 }
-
+*/
 .active-menu-link {
     color: #67f494;
     border-left:solid 3px #67f494;
@@ -213,3 +214,10 @@ footer p {
         display: none;
     }
 }
+
+@media (min-width: 660px) {
+    aside {
+        display: inline !important;
+    }
+  }
+
