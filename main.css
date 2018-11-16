@@ -46,26 +46,43 @@ aside {
 .aside-logo p {
     font-size: 12px;
 }
+#aside-logo-mb {
+    display: none;
+}
+
+.aside-logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+}
 
 aside hr {
     border-color: #4c5267;
     margin:0;
     padding:0;
 }
-a {
+.menu-link {
     color:#98A4CE;
     padding:20px 3px 20px 20px;
     display:block;
     text-decoration: none;
 }
 
-a:hover{
+.menu-link:hover{
     color: white;
     border-left:solid 3px #363a51;
     background-color:#363a51;
     padding:20px 30px 20px 40px;
     display:block;
 
+}
+
+.menu-link:active {
+    color: #67f494;
+    border-left:solid 3px #67f494;
+    background-color:#363a51;
+    padding:20px 30px 20px 17px;
+    display:block;
 }
 
 .active-menu-link {
@@ -134,6 +151,12 @@ header {
     display: none;
 }
 
+#burguer-menu {
+    color:#67f494;
+    padding-right:15px;
+
+}
+
 .content{
     flex: 4;
 }
@@ -157,7 +180,21 @@ footer p {
 } */
 
 @media(max-width:660px) {
-    aside{display:none}
+    aside {
+        display:none;
+        overflow: auto;
+        z-index: 1;
+        width: 100%;
+    
+    
+    }
+    .aside-logo{
+        display:none;
+    }
+
+    #aside-logo-mb{
+        display: block;
+    }
 
     header{background-color:#1a2b42;}
 
