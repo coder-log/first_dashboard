@@ -106,17 +106,6 @@ main {
     background-color:#98A4CE;
 }
 
-/* main {
-    display:flex;
-    background-color: #98A4CE;
-    height: 100vh;
-    float:right;
-    margin-left: 280px;
-    width: 80%;
-    position:absolute;
-    clear: both;
-} */
-
 /*HEADER SECTION*/
 
 header {
@@ -170,22 +159,13 @@ footer p {
     padding: 0 0 0 30px;
     color:#98A4CE;
 }
-/* header {
-    top: 0;
-    background-color:white;
-    height: 50px;
-    width: 100%;
-    float: right;
-} */
 
 @media(max-width:660px) {
     aside {
         display:none;
         overflow: auto;
         z-index: 1;
-        width: 100%;
-    
-    
+        width: 100%; 
     }
     .aside-logo{
         display:none;
@@ -211,7 +191,13 @@ footer p {
     .top-nav_right {
         display: none;
     }
+
+    footer p {
+        font-size: 14px;
+    }
 }
+
+
 
 @media (min-width: 660px) {
     aside {
